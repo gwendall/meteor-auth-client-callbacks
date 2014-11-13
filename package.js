@@ -7,8 +7,8 @@ Package.describe({
 Package.on_use(function (api, where) {
 
   api.use([
-    "underscore",
-    "accounts-base"
+    "underscore@1.0.1",
+    "accounts-base@1.1.2"
   ], "client");
 
   api.imply([
