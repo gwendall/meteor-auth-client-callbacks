@@ -17,7 +17,7 @@ Methods
 Callback called whenever the client logs in.
 ```javascript
 Accounts.onLogin(function() {
-  console.log("I am logged in.");
+  console.log("I just logged in.");
 });
 ```
 
@@ -25,6 +25,6 @@ Accounts.onLogin(function() {
 Callback called whenever the client logs out.
 ```javascript
 Accounts.onLogout(function() {
-  console.log("I am logged out.");
+  console.log("I just logged out.");
 });
 ```
